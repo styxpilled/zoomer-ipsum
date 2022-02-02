@@ -1,0 +1,14 @@
+{
+  "name": "zoomer-ipsum",
+  "description": "The worst lorem.",
+  "authors": "styxpilled",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && node dist/index.js",
+    "update": "tsc && node dist/util/update.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
