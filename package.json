@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && node dist/index.js",
-    "update": "tsc && node dist/util/update.js"
+    "update": "tsc && node dist/util/update.js",
+    "test": "tsc && node dist/index.test.js"
   },
   "devDependencies": {
     "typescript": "^4.5.5"
